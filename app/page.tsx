@@ -3,6 +3,11 @@ import Header from "./components/Header";
 import Head from "next/head";
 import Navbar from "./components/Navbar";
 import About from "./components/AboutMe";
+import Projects from "./components/Projects";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Technologies from "./components/Technologies";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -27,6 +32,9 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
+      <Projects />
+      <Technologies />
+      <Contact />
     </>
   );
 }

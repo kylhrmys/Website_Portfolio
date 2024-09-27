@@ -26,7 +26,7 @@ const Header = () => {
           </p>
           <a
             href=""
-            className="no-underline bg-purple-700 px-7 py-4 rounded-md mt-6 uppercase tracking-widest quicksand-regular"
+            className="no-underline bg-purple-700 px-7 py-3 rounded-md mt-6 uppercase tracking-widest quicksand-regular"
           >
             {headerData.buttonText}
           </a>
